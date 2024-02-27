@@ -5,9 +5,11 @@ Helps you to clean flutter apps and lower their code size to free up some disk s
 ## How to use
 This script is compatible with Python3.
 - Clone the repo.
-- Open the project in your favorite text editor or IDE.
-- Change `apps_dir` to your flutter apps directory.
-- Run terminal command `python main.py`.
+- `cd` into the project folder.
+- Run:
+  ```sh
+  python main.py /path/to/dir1 /path/to/dir2 /path/to/dir3
+  ```
 
 ## Disclaimer
 Cleaning the build won't affect your app compiled (ex: IPA and AAB) size.
